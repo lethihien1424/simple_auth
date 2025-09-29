@@ -1,0 +1,18 @@
+{
+  "name": "myservices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "1. Run the server:\r 2. Open Postman and create a GET request to: `http://localhost:3000/`\r 3. Go to the **Authorization** tab, select **Basic Auth**.\r 4. Enter:\r - Username: `admin`\r - Password: `12345`\r 5. Send the request.\r 6. Check the response (e.g., 200 OK with \"welcome\" message).",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2",
+    "uuid": "^13.0.0"
+  }
+}
